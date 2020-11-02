@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+/* html {
+  background-image: linear-gradient( #3A72FD , #4C4BC7 );
+} */
+
+.window {
+  top: 10px;
+  left: 10px;
+  position: fixed;
+  display: block;
+  font-family: monospace;
+}
+
+.header {
+  padding: none;
+  background-color: #999;
+  text-align: center;
+  line-height: 2rem;
+  height: 2rem;
+  cursor: move;
+}
+
+.inputs {
+  padding: 10px;
+  background: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
